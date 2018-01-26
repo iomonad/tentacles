@@ -1,4 +1,4 @@
-[![Dependencies Status](https://jarkeeper.com/Raynes/tentacles/status.svg)](https://jarkeeper.com/Raynes/tentacles)
+[![Dependencies Status](https://jarkeeper.com/iomonad/tentacles/status.svg)](https://jarkeeper.com/iomonad/tentacles)
 
 # An octocat is nothing without her tentacles
 
@@ -18,7 +18,7 @@ The library is very simple. It is a very light wrapper around the Github API. Fo
 user> (user-repos "amalloy")
 ; Evaluation aborted.
 user> (repos/user-repos "amalloy")
-[{:fork false, :pushed_at "2010-12-10T07:37:44Z", :name "ddsolve", :clone_url "https://github.com/amalloy/ddsolve.git", :watchers 1, :updated_at "2011-10-04T02:51:53Z", :html_url "https://github.com/amalloy/ddsolve", :owner {:avatar_url "https://secure.gravatar.com/avatar/1c6d7ce3810fd23f0823bf1df5103cd3?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png", :url "https://api.github.com/users/amalloy", :gravatar_id "1c6d7ce3810fd23f0823bf1df5103cd3", :login "amalloy", :id 368685}, :language "Clojure", :size 1704, :created_at "2010-08-18T16:37:47Z", :private false, :homepage "", :git_url "git://github.com/amalloy/ddsolve.git", :url "https://api.github.com/repos/amalloy/ddsolve", :master_branch nil, :ssh_url "git@github.com:amalloy/ddsolve.git", :open_issues 0, :id 846605, :forks 1, :svn_url "https://svn.github.com/amalloy/ddsolve", :description "Double-dummy solver for contract bridge"} ...]
+     Updated: 2018/01/26 09:55:21 by ctrouill         ###   ########.fr         
 ```
 
 I cut out most of the output there. If you try it yourself, you'll notice that it produces a *ton* of output. How can we limit the output? Easily!
