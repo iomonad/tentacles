@@ -1,5 +1,6 @@
 [![Dependencies Status](https://jarkeeper.com/iomonad/tentacles/status.svg)](https://jarkeeper.com/iomonad/tentacles)
 [![Clojars Project](https://img.shields.io/clojars/v/tentacles-fork.svg)](https://clojars.org/tentacles-fork)
+[![Build Status](https://travis-ci.org/iomonad/tentacles.svg?branch=master)](https://travis-ci.org/iomonad/tentacles)
 
 # An octocat is nothing without her tentacles
 
@@ -33,7 +34,6 @@ This also introduces an idiom in tentacles: options are a map passed to the last
 
 ```clojure
 user> (repos/repos {:auth "Raynes:REDACTED" :per-page 1})
-[{:fork true, :pushed_at "2011-09-21T05:37:17Z", :name "lein-marginalia", :clone_url "https://github.com/Raynes/lein-marginalia.git", :watchers 1, :updated_at "2011-11-23T03:27:47Z", :html_url "https://github.com/Raynes/lein-marginalia", :owner {:login "Raynes", :avatar_url "https://secure.gravatar.com/avatar/54222b6321f0504e0a312c24e97adfc1?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png", :url "https://api.github.com/users/Raynes", :gravatar_id "54222b6321f0504e0a312c24e97adfc1", :id 54435}, :language "Clojure", :size 180, :created_at "2011-11-23T03:27:47Z", :private false, :homepage "", :git_url "git://github.com/Raynes/lein-marginalia.git", :url "https://api.github.com/repos/Raynes/lein-marginalia", :master_branch nil, :ssh_url "git@github.com:Raynes/lein-marginalia.git", :open_issues 0, :id 2832999, :forks 0, :svn_url "https://svn.github.com/Raynes/lein-marginalia", :description "A Marginalia plugin to Leiningen "}]
 ```
 
 Default options can be specified via `with-defaults`.
@@ -63,8 +63,6 @@ user> (repos/readme "Raynes" "tentacles" {:user-agent "MyPhoneApp"})
 ```
 
 The Github API is massive and great. I can't demonstrate every API call. Everything is generally just as easy as the above examples, and I'm working hard to document things as well as possible, so go explore!
-
-Here are some lovely [Marginalia docs](http://raynes.github.com/tentacles). I also wrote a demonstrational [blog post](http://blog.raynes.me/blog/2011/12/02/waving-our-tentacles/) about Tentacles that I intend to keep updated with future releases.
 
 If you run into something that isn't documented well or you don't understand, look for the API call on the Github API [docs](http://developer.github.com/v3/). If you feel like it, please submit a pull request with improved documentation. Let's make this the most impressive Github API library around!
 
