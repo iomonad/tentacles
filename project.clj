@@ -1,6 +1,6 @@
-(defproject tentacles "0.5.2-SNAPSHOT"
-  :description "A library for working with the Github API."
-  :url "https://github.com/Raynes/tentacles"
+(defproject tentacles-fork "0.6.0-SNAPSHOT"
+  :description "Raynes Fork: A library for working with the Github API."
+  :url "https://github.com/iomonad/tentacles"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.9.0"]
