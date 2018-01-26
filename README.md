@@ -1,4 +1,5 @@
 [![Dependencies Status](https://jarkeeper.com/iomonad/tentacles/status.svg)](https://jarkeeper.com/iomonad/tentacles)
+[![Clojars Project](https://img.shields.io/clojars/v/tentacles-fork.svg)](https://clojars.org/tentacles-fork)
 
 # An octocat is nothing without her tentacles
 
@@ -18,7 +19,7 @@ The library is very simple. It is a very light wrapper around the Github API. Fo
 user> (user-repos "amalloy")
 ; Evaluation aborted.
 user> (repos/user-repos "amalloy")
-     Updated: 2018/01/26 09:55:21 by ctrouill         ###   ########.fr         
+     Updated: 2018/01/26 10:06:16 by ctrouill         ###   ########.fr         
 ```
 
 I cut out most of the output there. If you try it yourself, you'll notice that it produces a *ton* of output. How can we limit the output? Easily!
