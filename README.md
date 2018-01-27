@@ -1,6 +1,7 @@
 [![Dependencies Status](https://jarkeeper.com/iomonad/tentacles/status.svg)](https://jarkeeper.com/iomonad/tentacles)
 [![Clojars Project](https://img.shields.io/clojars/v/tentacles-fork.svg)](https://clojars.org/tentacles-fork)
 [![Build Status](https://travis-ci.org/iomonad/tentacles.svg?branch=master)](https://travis-ci.org/iomonad/tentacles)
+[![Downloads](https://jarkeeper.com/iomonad/tentacles/downloads.svg)](https://jarkeeper.com/iomonad/tentacles)
 
 # An octocat is nothing without her tentacles
 
